@@ -23,10 +23,7 @@ public class P1_Algorithm : MonoBehaviour
     }
 
     void printVector(int[] nums){
-        foreach (var n in nums)
-        {
-            Debug.Log(n+"");
-        }
+            Debug.Log("["+string.Join(", ", nums)+"]");
     }
 
     // Update is called once per frame
